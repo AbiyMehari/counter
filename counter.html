@@ -9,16 +9,16 @@
     <button onclick="myCount()"><h1>Count</h1></button>
     <button onclick="reset()"><h1>Reset</h1></button>
 
-    <p id="demo"></p>
+    <h1 id="counter"></h1>
     <script>
       let count = 0;
       function myCount() {
         count++;
-        document.getElementById("demo").innerHTML = count;
+        document.getElementById("counter").innerHTML = count;
       }
       function reset() {
         count = 0;
-        document.getElementById("demo").innerHTML = count;
+        document.getElementById("counter").innerHTML = count;
       }
     </script>
   </body>
