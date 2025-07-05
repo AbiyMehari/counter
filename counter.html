@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>w3schools exercise</title>
+  </head>
+  <body>
+    <button onclick="myCount()"><h1>Count</h1></button>
+    <button onclick="reset()"><h1>Reset</h1></button>
+
+    <p id="demo"></p>
+    <script>
+      let count = 0;
+      function myCount() {
+        count++;
+        document.getElementById("demo").innerHTML = count;
+      }
+      function reset() {
+        count = 0;
+        document.getElementById("demo").innerHTML = count;
+      }
+    </script>
+  </body>
+</html>
